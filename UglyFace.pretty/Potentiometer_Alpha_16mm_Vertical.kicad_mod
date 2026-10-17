@@ -1,0 +1,345 @@
+(footprint "Potentiometer_Alpha_16mm_Vertical"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Alpha 16mm potentiometer, PCB mount, vertical shaft, 5.08mm pin pitch (from Eagle 16MM)")
+	(attr through_hole)
+	(property "Reference" "REF**"
+		(at 0.0339 3.0164 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d25a9912-a556-4165-b5a8-65dc8e153ec5")
+		(effects
+			(font
+				(size 1.135888 1.135888)
+				(thickness 0.134112)
+			)
+		)
+	)
+	(property "Value" "Potentiometer_Alpha_16mm_Vertical"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4e58bca8-0ae9-4204-a4f4-535aa81e3379")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1796b138-3f43-4b4d-92df-81b8f86f7d63")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eb91bdb2-3fe0-4012-8abc-f4c0ea6fa28c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -6.604 -1.524)
+		(end -6.604 1.524)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "91f3f12f-9d08-4007-a46d-5452b0db130e")
+	)
+	(fp_line
+		(start -6.604 -1.524)
+		(end -3.556 -1.524)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b9f66bd5-e5fe-4214-9bd0-d81a2b1c1c72")
+	)
+	(fp_line
+		(start -6.604 1.524)
+		(end -3.556 1.524)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "aff42f6c-6426-47f0-a0a7-05d76cbfec45")
+	)
+	(fp_line
+		(start -3.556 1.524)
+		(end -3.556 -1.524)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9cf93096-721f-4bd8-8a2d-db55e9c0d852")
+	)
+	(fp_line
+		(start -1.524 -1.524)
+		(end -1.524 1.524)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "13453a96-3221-4832-b936-469af757ea1e")
+	)
+	(fp_line
+		(start -1.524 -1.524)
+		(end 1.524 -1.524)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fef34764-4bc2-4cd4-ac5d-0baf4d01cee2")
+	)
+	(fp_line
+		(start -1.524 1.524)
+		(end 1.524 1.524)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b1f05230-6e38-48e6-9a90-ad8206357ef3")
+	)
+	(fp_line
+		(start 1.524 1.524)
+		(end 1.524 -1.524)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b079ed35-f536-4405-821a-0019934e3273")
+	)
+	(fp_line
+		(start 3.556 -1.524)
+		(end 3.556 1.524)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cd4903ba-1592-4947-a229-def98305d214")
+	)
+	(fp_line
+		(start 3.556 -1.524)
+		(end 6.604 -1.524)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8103b077-95c4-479d-bfe3-65484f61656c")
+	)
+	(fp_line
+		(start 3.556 1.524)
+		(end 6.604 1.524)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c5191ae0-4048-4f57-bff9-15f894ff7f0f")
+	)
+	(fp_line
+		(start 6.604 1.524)
+		(end 6.604 -1.524)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f0065492-934b-4201-9dc1-12ce8b5ecdf0")
+	)
+	(fp_line
+		(start -8.89 -14.605)
+		(end 8.89 -14.605)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "6263cb6b-5a94-4220-8468-fb749eba5240")
+	)
+	(fp_line
+		(start -7.62 -10.16)
+		(end -7.62 -1.651)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "b055b0e3-55fe-4396-b438-6f2dc475cc51")
+	)
+	(fp_line
+		(start -7.62 -1.651)
+		(end 7.62 -1.651)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "a054baff-c89b-434a-bf69-d302827f010c")
+	)
+	(fp_line
+		(start 0 -5.715)
+		(end 0 -23.495)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "878953f2-9ff7-4a80-b248-4a7d59f4df2d")
+	)
+	(fp_line
+		(start 7.62 -1.651)
+		(end 7.62 -10.16)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "eb959d2a-b68c-4c36-aec3-ddc52eecb7be")
+	)
+	(fp_arc
+		(start -8.89 -14.605)
+		(mid -6.286208 -20.891209)
+		(end 0.000002 -23.495)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "a6639d41-3efe-4062-af02-3e538f25060e")
+	)
+	(fp_arc
+		(start 0 -23.495)
+		(mid 6.286209 -20.891208)
+		(end 8.89 -14.604998)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "f1a03959-4526-4061-9cb6-b2beb121a997")
+	)
+	(fp_arc
+		(start 0 -5.715)
+		(mid -6.286179 -8.318821)
+		(end -8.89 -14.605)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "913bb921-e58e-41b1-b88c-5146fb30041a")
+	)
+	(fp_arc
+		(start 8.89 -14.605)
+		(mid 6.286179 -8.318821)
+		(end 0 -5.715)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "44195f9d-4440-450a-a81b-07c4b1d9a3cd")
+	)
+	(fp_circle
+		(center 0 -14.605)
+		(end 0.898 -14.605)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill no)
+		(layer "B.SilkS")
+		(uuid "39cb0c77-fc25-4982-875f-abcc6ed736c4")
+	)
+	(fp_text user "1"
+		(at 5.842 -1.778 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "4455391c-09d7-4707-b510-9835cb1ed51f")
+		(effects
+			(font
+				(size 0.89408 0.89408)
+				(thickness 0.12192)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -2.667 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "ca36c799-a3b7-42c3-99f9-bc3b5c550328")
+		(effects
+			(font
+				(size 1.1176 1.1176)
+				(thickness 0.1524)
+			)
+			(justify mirror)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 5.08 0 180)
+		(size 2.54 2.54)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+	)
+	(pad "2" thru_hole circle
+		(at 0 0 180)
+		(size 2.54 2.54)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+	)
+	(pad "3" thru_hole circle
+		(at -5.08 0 180)
+		(size 2.54 2.54)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+	)
+	(model "${KIPRJMOD}/3dmodels/RV16AF-41.step"
+		(offset
+			(xyz 0 16 -1.6)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 180 0)
+		)
+	)
+	(embedded_fonts no)
+)

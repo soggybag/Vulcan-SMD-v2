@@ -1,0 +1,14 @@
+# KiCad per-user and temporary files
+*.kicad_prl
+*-backups/
+~*.lck
+_autosave-*
+*.bak
+fp-info-cache
+\#auto_saved_files#
+
+# Generated fabrication outputs (attach the JLC zip to a GitHub Release instead)
+/production/
+
+# macOS
+.DS_Store

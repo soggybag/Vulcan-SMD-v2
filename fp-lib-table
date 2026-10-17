@@ -1,0 +1,5 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "UglyFace")(type "KiCad")(uri "${KIPRJMOD}/UglyFace.pretty")(options "")(descr "Pedal footprints (16mm pots)"))
+	(lib (name "SuperFreq")(type "KiCad")(uri "${KIPRJMOD}/SuperFreq.pretty")(options "")(descr "Super-Freq custom footprints"))
+)

@@ -1,0 +1,16 @@
+(version 1)
+
+# Off-board wire pads sit on the original 2.54mm pitch; their courtyards overlap by design.
+(rule "wire pad courtyards"
+	(condition "A.Reference == 'J*' && B.Reference == 'J*'")
+	(constraint courtyard_clearance (min -3mm)))
+
+# Hand-soldered wire pads: a single thermal spoke plus a track is plenty.
+(rule "wire pad spokes"
+	(condition "A.Reference == 'J*'")
+	(constraint min_resolved_spokes 1))
+
+# Ground pins in tight spots may reach the pour with a single thermal spoke.
+(rule "ground pad spokes"
+	(condition "A.Type == 'Pad' && A.NetName == 'GND'")
+	(constraint min_resolved_spokes 1))
